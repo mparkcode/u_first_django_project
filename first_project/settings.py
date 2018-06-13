@@ -25,7 +25,7 @@ SECRET_KEY = '%1i!aso*2m((hmki0bwss%pvcx@17oc81a^rizn6tc&87c*g^j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['u-first-django-project-mparkcode.c9users.io']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'first_app'
 ]
 
 MIDDLEWARE = [
